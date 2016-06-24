@@ -1,0 +1,46 @@
+@import "bootstrap.telegram.css";
+@import "app.desktop.css";
+@import "../vendor/jquery.nanoscroller/nanoscroller.css";
+
+body, html, .page_container {
+    height: 100%;
+}
+
+.page_wrap {
+    width: 100%;
+}
+
+.page_container {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.im_dialogs_col, .im_page_wrap {
+    height: 500px;
+}
+
+.im_history_col {
+    height: 450px;
+}
+
+.im_history_scrollable_wrap {
+    margin-bottom: 70px;
+}
+
+.im_send_form_wrap {
+    height: 30px;
+}
+
+.composer_rich_textarea {
+    margin-right: -17px;
+    overflow: auto;
+    max-height: 30px;
+
+}
+
+.im_history_empty {
+    padding-top: 119px;
+    padding-bottom: 119px;
+}
+
