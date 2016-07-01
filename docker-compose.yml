@@ -1,0 +1,13 @@
+version: '2'
+services:
+  www:
+    image: pooya/paas
+    volumes:
+      - .:/var/www/project
+    environment:
+      -  VIRTUAL_HOST=telesi
+    external_links:
+      -  mongo_mongodb_1:mongo 
+    network_mode: "bridge"
+    mem_limit: 128m
+    restart: always

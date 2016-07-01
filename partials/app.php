@@ -16,3 +16,4 @@
 
 <?php include 'modals/chat.php'; ?>
 <?php include 'modals/new.php'; ?>
+<?php include 'modals/login.php'; ?>

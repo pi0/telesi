@@ -1,0 +1,15 @@
+{
+    "name": "pooya/telesi",
+    "description": "Simple telegram clone",
+    "authors": [
+        {
+            "name": "Pooya Parsa",
+            "email": "pooya@pi0.ir"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.2",
+        "mongodb/mongodb": "^1.0",
+        "nikic/fast-route": "^1.0"
+    }
+}
